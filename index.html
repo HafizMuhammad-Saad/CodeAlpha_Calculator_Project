@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="calculator">
+        <div class="display">
+            <input type="text" id="result" disabled>
+        </div>
+        <div class="buttons basic-mode">
+            <!-- Numbers and basic operations -->
+            <button>7</button><button>8</button><button>9</button><button>/</button>
+            <button>4</button><button>5</button><button>6</button><button>*</button>
+            <button>1</button><button>2</button><button>3</button><button>-</button>
+            <button>0</button><button>.</button><button>=</button><button>+</button>
+            <button>C</button>
+        </div>
+    
+        <div class="buttons scientific-mode" style="display: none;">
+            <!-- Additional scientific functions -->
+            <button>sin</button><button>cos</button><button>tan</button><button>log</button>
+            <button>sqrt</button><button>^</button>
+        </div>
+    
+        <button class="toggle-mode">Toggle Mode</button>
+    </div>
+    
+
+    <script src="index.js"></script>
+</body>
+</html>
